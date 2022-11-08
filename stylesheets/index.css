@@ -1,0 +1,131 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: #FDEEDC;
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E38B29;
+    padding: 0%;
+    margin: 0%;
+    align-content: center;
+    width: 100%;
+}
+
+.navbar {
+    font-size: 3vh;
+    font-family: 'Lobster Two', cursive;
+    color: #FDEEDC;
+    justify-content: space-between;
+    margin-left: 2vh;
+    margin-right: 10vh;
+    flex-wrap: wrap;
+    order: 2;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    margin-left: 2vh;
+}
+
+.navlist a {
+    text-decoration: none;
+    color: #FDEEDC;
+    padding: 2vh;
+    border-radius: 5vh;
+}
+
+.navlist li {
+    padding: 2vh;
+    display: block;
+}
+
+.navlist li :hover {
+    background-color: #aa6413c1;
+}
+
+.logo {
+    margin: 2vh;
+    height: 10vh;
+    order: 1;
+    border-radius: 50vh;
+}
+
+/* PRESENTACION */
+
+.presentacion h1 {
+    position: relative;
+    left: 50vh;
+    font-size: 10vh;
+    font-family: 'Lobster Two', cursive;
+    color: #d87d14;
+    background-color: #FDEEDC;
+    width: 80vh;
+    border-radius: 2vh;
+    border: 1vh dashed #fdcc94 ;
+}
+
+.presentacion {
+    text-align: center;
+    background-image: url(/img/Fondo.png);
+    background-repeat: no-repeat;
+    background-size: 250vh;
+    background-position: -45vh;
+    padding: 10vh;
+    margin: 0%;
+}
+
+.logogrde {
+    border-radius: 50vh;
+}
+
+/* CAKES */
+.cakecard{
+    display: block;
+    background-color: #FFD8A9;
+    width: 40vh;
+    height: 50vh;
+    position: relative;
+    padding: 5vh;
+    padding-bottom: 10vh;
+    margin: 5vh;
+    text-align: center;
+    border-radius: 1vh;
+    box-shadow: 3vh 3vh 1vh #E38B29;
+    font-family: 'Lobster Two', cursive;
+    color: #d87d14;
+}
+
+.cakes{
+    background-color: #F1A661;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0%;
+    padding: 6vh;
+    height: auto;
+}
+
+.chsck{
+    order: 1;
+}
+
+.chocck{
+    order: 2;
+}
+
+.rainck{
+    order: 3;
+}
+
+.cakecard img {
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+}
