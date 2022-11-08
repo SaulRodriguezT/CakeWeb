@@ -2,6 +2,7 @@ body {
     padding: 0%;
     margin: 0%;
     background-color: #FDEEDC;
+    width: 100%;
 }
 
 /* HEADER */
@@ -57,31 +58,20 @@ body {
 }
 
 /* PRESENTACION */
-
-.presentacion h1 {
-    position: relative;
-    left: 50vh;
-    font-size: 10vh;
-    font-family: 'Lobster Two', cursive;
-    color: #d87d14;
-    background-color: #FDEEDC;
-    width: 80vh;
-    border-radius: 2vh;
-    border: 1vh dashed #fdcc94 ;
-}
-
 .presentacion {
     text-align: center;
     background-image: url(/img/Fondo.png);
     background-repeat: no-repeat;
     background-size: 250vh;
-    background-position: -45vh;
-    padding: 10vh;
     margin: 0%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 .logogrde {
     border-radius: 50vh;
+    width: 60vh;
+    align-items: center;
 }
 
 /* CAKES */
